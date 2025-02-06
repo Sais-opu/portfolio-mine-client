@@ -4,9 +4,9 @@ import Tilt from 'react-parallax-tilt';
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 import classes from './Projects.module.css';
+import marathon from '../images/marathon.png'
 
-import profilee from '../images/profilee.png';
- 
+import crowd from '../images/crowd.png'
 import github from '../images/github.png';
 import edu from '../images/edu.png';
 
@@ -24,23 +24,24 @@ const webItem = [
     githubLink: 'https://github.com/mittalsam98/frontenddev'
   },
   {
-    link: 'https://edumanage-f0f88.web.app/',
-    title: 'Edu-Manageemnt',
+    link: 'https://marathon-manage-system.web.app/',
+    title: 'Marathon-Manageemnt',
     techStack: 'Useful repo for most common frontend and backend challenges',
     desc: 'Technology used: React Js, Mantine UI, Context API',
-    image: edu,
+    image: marathon,
     color: '#E5E483',
     githubLink: 'https://github.com/mittalsam98/frontenddev'
   },
   {
-    link: 'https://edumanage-f0f88.web.app/',
-    title: 'Edu-Manageemnt',
+    link: 'https://crowdcube-1249a.web.app/',
+    title: 'Crowdcube ',
     techStack: 'Useful repo for most common frontend and backend challenges',
     desc: 'Technology used: React Js, Mantine UI, Context API',
-    image: edu,
+    image: crowd,
     color: '#E5E483',
-    githubLink: 'https://github.com/mittalsam98/frontenddev'
+    githubLink: 'https://github.com/Sais-opu/CrowdCube-Client-side'
   },
+  
   
   
 ];

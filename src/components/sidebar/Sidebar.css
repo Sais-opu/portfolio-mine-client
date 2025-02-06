@@ -122,40 +122,49 @@ ul {
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 106vw;
+    width: 100vw; 
   }
   .h1_links {
     font-size: 28px;
   }
+
+  
   .links {
-    display: none;
+    display: inline-block; 
+    /* padding: 8px 0;  */
+    font-size: 18px;
   }
 
   .gmail {
     font-size: 16px;
     font-weight: normal;
   }
+
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 0;
+    height: 100%;
+  }
+
+  .sidebar-nav-items {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 370px) {
   .sidebar {
-    width: 106vw;
+    width: 100vw; 
   }
   .h1_links {
-    font-size: 24px;
+    font-size: 24px; 
   }
   .links {
-    font-size: 16px;
+    font-size: 16px; 
   }
 }
 
-.templateTextBtn {
-  background-color: #238636;
-  color: white;
-  border: none;
-  font-size: 15px;
-  padding: 3px 20px;
-  font-weight: bold;
-  margin: 10px 0px;
-  border-radius: 8px;
-}
+
