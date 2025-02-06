@@ -18,8 +18,8 @@ class About extends Component {
         <h2 className={classes.heading}>Who Am I?</h2>
         <div className={classes.About}>
           <p>
-            Hi! My name is <b>SACHIN MITTAL</b>. I am a passionate developer having experience in{' '}
-            <b>Frontend development</b> & <b>Mobile App development </b>  complemented by backend expertise and I am much interested in developing new things
+            Hi! My name is <b>MD SAIDUL ISLAM APU</b>. I am a passionate developer having experience in{' '}
+            <b>Full-Stack Development</b>  complemented by backend expertise and I am much interested in developing new things
             which excite me a lot. :)
           </p>
           <p className={classes.br}>
