@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { motion } from 'framer-motion';
 
-import logo from '../images/sam.png';
+import logo from '../images/my-img.jpg';
 import github from '../images/github.png';
-import instagram from '../images/instagram.png';
-import twitter from '../images/twitterx.png';
+// import instagram from '../images/instagram.png';
+// import twitter from '../images/twitterx.png';
+import facebook from '../images/facebook.jpg'
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
 
@@ -25,23 +26,23 @@ export default function Sidebar() {
   const iconList = [
     {
       component: github,
-      href: 'https://github.com/mittalsam98'
+      href: 'https://github.com/Sais-opu'
     },
     {
       component: linkedin,
-      href: 'https://www.linkedin.com/in/sachin-mittal-476174158?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoRhF2EUsQJ%2BygJpLEZb%2FFA%3D%3D'
+      href: 'https://www.linkedin.com/in/md-saidul-islam-apu-5b6306228/'
     },
+    // {
+    //   component: twitter,
+    //   href: 'https://twitter.com/Sachin_Mittal98'
+    // },
     {
-      component: twitter,
-      href: 'https://twitter.com/Sachin_Mittal98'
-    },
-    {
-      component: instagram,
-      href: 'https://www.instagram.com/decent_sachin.mittal'
+      component: facebook,
+      href: 'https://www.facebook.com/sais.opu.2024'
     },
     {
       component: gmail,
-      href: 'mailto:mittalsam98@gmail.com'
+      href: 'mailto:saidulislamapu2024@gmail.com'
     }
   ];
   const item = {
@@ -55,11 +56,11 @@ export default function Sidebar() {
   return (
     <div className='sidebar'>
       <div className='topHashtag'># programmer_life</div>
-      <div className='topHashtag'># hello_world</div>
+      <div className='topHashtag'># Full-Stack Developer</div>
       <div className='topHashtag'># coding</div>
       <h1>
         <Link smooth to='/#start' className='h1_links'>
-          Sachin Mittal
+          MD SAIDUL ISLAM APU
         </Link>
       </h1>
       <motion.div
@@ -70,13 +71,25 @@ export default function Sidebar() {
       </motion.div>
       <p style={{ color: 'black', fontWeight: 'bold' }} className='gmail'>
         <a
-          href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL'
+          href='mailto:saidulislamapu2024@gmail.com'
           rel='opener noreferrer'
           target='_blank'
           className='fa fa-envelope'
         ></a>
-        &nbsp;mittalsam98@gmail.com
+        &nbsp; <a href="mailto:saidulislamapu2024@gmail.com">saidulislamapu2024@gmail.com</a>
       </p>
+
+
+      {/* <p style={{ color: 'black', fontWeight: 'bold' }} className='gmail'>
+        <a
+          href='mailto:saidulislamapu2024@gmail.com'
+          rel='opener noreferrer'
+          target='_blank'
+          className='fa fa-envelope'
+        ></a>
+        &nbsp;saidulislamapu2024@gmail.com
+      </p> */}
+
 
       <ul className='sidebar-nav'>
         <li className='sidebar-nav-items'>
